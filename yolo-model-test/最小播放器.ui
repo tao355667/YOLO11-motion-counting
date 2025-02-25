@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QVideoWidget" name="_video_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>721</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menusad">
+    <property name="title">
+     <string>sad</string>
+    </property>
+    <addaction name="actionasdasd"/>
+    <addaction name="actionasd"/>
+    <addaction name="actionasd_2"/>
+    <addaction name="actiona"/>
+    <addaction name="actionsd"/>
+    <addaction name="actionas"/>
+    <addaction name="actiond"/>
+    <addaction name="actionasd_3"/>
+    <addaction name="actionasd_4"/>
+    <addaction name="actiona_2"/>
+    <addaction name="actionsd_2"/>
+    <addaction name="actionas_2"/>
+    <addaction name="actiond_2"/>
+   </widget>
+   <addaction name="menusad"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionasdasd">
+   <property name="text">
+    <string>asdasd</string>
+   </property>
+  </action>
+  <action name="actionasd">
+   <property name="text">
+    <string>asd</string>
+   </property>
+  </action>
+  <action name="actionasd_2">
+   <property name="text">
+    <string>asd</string>
+   </property>
+  </action>
+  <action name="actiona">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
+  <action name="actionsd">
+   <property name="text">
+    <string>sd</string>
+   </property>
+  </action>
+  <action name="actionas">
+   <property name="text">
+    <string>as</string>
+   </property>
+  </action>
+  <action name="actiond">
+   <property name="text">
+    <string>d</string>
+   </property>
+  </action>
+  <action name="actionasd_3">
+   <property name="text">
+    <string>asd</string>
+   </property>
+  </action>
+  <action name="actionasd_4">
+   <property name="text">
+    <string>asd</string>
+   </property>
+  </action>
+  <action name="actiona_2">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
+  <action name="actionsd_2">
+   <property name="text">
+    <string>sd</string>
+   </property>
+  </action>
+  <action name="actionas_2">
+   <property name="text">
+    <string>as</string>
+   </property>
+  </action>
+  <action name="actiond_2">
+   <property name="text">
+    <string>d</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>qvideowidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
